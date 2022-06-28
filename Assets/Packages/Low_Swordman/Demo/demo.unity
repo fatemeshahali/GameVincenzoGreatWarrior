@@ -817,7 +817,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.00012212992, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -4819,7 +4819,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.00012212992, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -6347,9 +6347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ad45b29ea737234db7bc768128ac6dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 2050180691}
-  Smoothvalue: 2
-  PosY: 1
 --- !u!1 &1097860148
 GameObject:
   m_ObjectHideFlags: 0
@@ -6969,7 +6966,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14dc69de864209a4abd8b6de40857671, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_root: {fileID: 0}
 --- !u!61 &1513063931
 BoxCollider2D:
   m_ObjectHideFlags: 0
