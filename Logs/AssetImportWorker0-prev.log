@@ -15,11 +15,11 @@ E:/Unity/project/GameBloodyRevenge/GameVincenzoGreatWarrior/GameVincenzoGreatWar
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1036
+9687
 Successfully changed project path to: E:/Unity/project/GameBloodyRevenge/GameVincenzoGreatWarrior/GameVincenzoGreatWarrior
 E:/Unity/project/GameBloodyRevenge/GameVincenzoGreatWarrior/GameVincenzoGreatWarrior
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 125.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path E:/Unity/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,178 +35,92 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001824 seconds.
+Registered in 0.001503 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
+- Completed reload, in  0.969 seconds
 Domain Reload Profiling:
-	ReloadAssembly (966ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (743ms)
-			LoadAssemblies (84ms)
+		EndReloadAssembly (760ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
+			SetupTypeCache (240ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (252ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (290ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
+				RefreshPlugins (68ms)
 				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003262 seconds.
+Registered in 0.002990 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.543 seconds
+- Completed reload, in  1.604 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1544ms)
-		BeginReloadAssembly (251ms)
+	ReloadAssembly (1605ms)
+		BeginReloadAssembly (227ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1208ms)
-			LoadAssemblies (145ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1292ms)
+			LoadAssemblies (142ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (428ms)
+			SetupTypeCache (451ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (446ms)
+			SetupLoadedEditorAssemblies (481ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (313ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (334ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 68.2 MB.
-System memory in use after: 68.2 MB.
+Unloading 1549 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.8 MB.
+System memory in use after: 70.9 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1934.
-Total: 3.860600 ms (FindLiveObjects: 0.153600 ms CreateObjectMapping: 0.058600 ms MarkObjects: 3.533400 ms  DeleteObjects: 0.113700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Packages
-  artifactKey: Guid(8d722d56f6601c44f86fcd8e186ce533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Packages using Guid(8d722d56f6601c44f86fcd8e186ce533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b45a28cab89803d2e232ef684beb05b') in 0.012570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.994444 seconds.
-  path: Assets/Material
-  artifactKey: Guid(100aa82bf6bb7404ea5cd585af3df9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material using Guid(100aa82bf6bb7404ea5cd585af3df9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e6dbefc6f369bcfbc8e3b594162e47') in 0.036801 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.784744 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(100aa82bf6bb7404ea5cd585af3df9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(100aa82bf6bb7404ea5cd585af3df9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c3564082ef45f97b206173336b1d60') in 0.022480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.576392 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(e1a6ec1b774e39942b083fd28e1b1413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(e1a6ec1b774e39942b083fd28e1b1413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004584cc764c61ab03a90f103c7d24e6') in 0.028575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.769367 seconds.
-  path: Assets/Animation
-  artifactKey: Guid(53c396e9431c4594faa808cd84a2196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation using Guid(53c396e9431c4594faa808cd84a2196e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac39ff13b18f9d6a35f668fc50a342c') in 0.010575 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.050417 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.640 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1641ms)
-		BeginReloadAssembly (182ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (1368ms)
-			LoadAssemblies (145ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (458ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (554ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (160ms)
-				ProcessInitializeOnLoadAttributes (365ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.2 MB.
-System memory in use after: 69.3 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1941.
-Total: 3.839200 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.079500 ms MarkObjects: 3.513700 ms  DeleteObjects: 0.073400 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 4.102900 ms (FindLiveObjects: 0.163400 ms CreateObjectMapping: 0.065900 ms MarkObjects: 3.760500 ms  DeleteObjects: 0.111600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -219,108 +133,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  path: Assets/Packages/Low_Swordman/Demo
+  artifactKey: Guid(ca045e253edff504fb5b0bb65d89d016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo using Guid(ca045e253edff504fb5b0bb65d89d016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1eb1e5c5b47fee4b705c5597d71683') in 0.017295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/demo.unity
+  artifactKey: Guid(9a24e8e0a81fd78488635ca9091a25a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/demo.unity using Guid(9a24e8e0a81fd78488635ca9091a25a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29481312d83e3328223bd4f41a3a6552') in 0.031051 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003351 seconds.
+Registered in 0.002851 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.574 seconds
+- Completed reload, in  1.424 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1575ms)
-		BeginReloadAssembly (170ms)
+	ReloadAssembly (1425ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1288ms)
-			LoadAssemblies (152ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1185ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (515ms)
+			SetupTypeCache (427ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (436ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (421ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (308ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (290ms)
 				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.3 MB.
-System memory in use after: 69.4 MB.
+Unloading 1544 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1943.
-Total: 3.588100 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.124500 ms MarkObjects: 3.147300 ms  DeleteObjects: 0.078500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006533 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.187 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2188ms)
-		BeginReloadAssembly (186ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (1853ms)
-			LoadAssemblies (172ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (783ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (651ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (488ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.4 MB.
-System memory in use after: 69.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1950.
-Total: 3.858600 ms (FindLiveObjects: 0.192500 ms CreateObjectMapping: 0.116500 ms MarkObjects: 3.477500 ms  DeleteObjects: 0.070900 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1983.
+Total: 4.058300 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.064300 ms MarkObjects: 3.752000 ms  DeleteObjects: 0.081200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -333,165 +201,729 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004277 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.624 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1624ms)
-		BeginReloadAssembly (163ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1353ms)
-			LoadAssemblies (142ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (537ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (421ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1508 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.4 MB.
-System memory in use after: 69.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1953.
-Total: 3.515300 ms (FindLiveObjects: 0.152600 ms CreateObjectMapping: 0.081400 ms MarkObjects: 3.209300 ms  DeleteObjects: 0.070500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 394.317694 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite
+  artifactKey: Guid(ee77caa4c76f4b741834ce8959c68586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite using Guid(ee77caa4c76f4b741834ce8959c68586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef88ea19466b2eadd68c82b7fe58a73') in 0.025443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.421930 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite/Cloud.png
+  artifactKey: Guid(4183af6a174f2144288484ab0b83ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite/Cloud.png using Guid(4183af6a174f2144288484ab0b83ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dce3c73346e9d25f41193d6d29d1ee0') in 0.163812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite/webGL-ui_move.png
+  artifactKey: Guid(1300a8d6a01c3c347b3a54a380fe86f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite/webGL-ui_move.png using Guid(1300a8d6a01c3c347b3a54a380fe86f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5da5dd6a6c619d393006652cd176a0c') in 0.039400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite/Light_Soil_Sample.png
+  artifactKey: Guid(af8183249dd18734a9415f11af1f8471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite/Light_Soil_Sample.png using Guid(af8183249dd18734a9415f11af1f8471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68406f2190238d7f8638f8a97f3a833d') in 1.355255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite/Mountain_2-001.png
+  artifactKey: Guid(68d595fbad75ba14eb26974e08fa7718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite/Mountain_2-001.png using Guid(68d595fbad75ba14eb26974e08fa7718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba825ebf320d5c1b2e2f66cba9399fb') in 0.034327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite/RClick.png
+  artifactKey: Guid(9dec916718111bc498a0b38c4a38b0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite/RClick.png using Guid(9dec916718111bc498a0b38c4a38b0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac7da737c8bb494beaec66ee4c48666') in 0.017548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite/webGL-ui_mouse_Fill.png
+  artifactKey: Guid(226da39bc4b92d44cbca3bf35c87bba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite/webGL-ui_mouse_Fill.png using Guid(226da39bc4b92d44cbca3bf35c87bba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781a88951c5420ca1b04fd772ede69f1') in 0.020714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite/Forest_Green_1.png
+  artifactKey: Guid(835b624361cb959469bf0b945a2f7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite/Forest_Green_1.png using Guid(835b624361cb959469bf0b945a2f7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd0a2f41175f7ed24286b2a425ce16a') in 0.035931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite/LR.png
+  artifactKey: Guid(d0445638e7ec597449759ae5ebba1c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite/LR.png using Guid(d0445638e7ec597449759ae5ebba1c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee77f55f75fe5bbf48208f510a434222') in 0.035449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite/webGL-ui_attack.png
+  artifactKey: Guid(2164c2559952e9d459b69f47322b7bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite/webGL-ui_attack.png using Guid(2164c2559952e9d459b69f47322b7bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce551b5408b59b718621b07e823e0a4') in 0.034097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite/webGL-ui_button_Fill.png
+  artifactKey: Guid(fa61cfacce39345498dba8541b9744a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite/webGL-ui_button_Fill.png using Guid(fa61cfacce39345498dba8541b9744a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee70470f1f9bd6d904753f8d7fac43da') in 0.032850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Sprite/LClick.png
+  artifactKey: Guid(5fd8ad05b7bfcd84397212f62ccb6279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Sprite/LClick.png using Guid(5fd8ad05b7bfcd84397212f62ccb6279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11bd20a709e803d3af3321ba34d2b18') in 0.033601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.125251 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/DemoPrefab
+  artifactKey: Guid(6c5d1545573ee2a4386e27bf4c6a6547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/DemoPrefab using Guid(6c5d1545573ee2a4386e27bf4c6a6547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b9f17070bf5ba7410dbed93772bb68') in 0.013007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034449 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/DemoPrefab/Canvas.prefab
+  artifactKey: Guid(2e1151cbd0a77a847ab536b0f05cb03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/DemoPrefab/Canvas.prefab using Guid(2e1151cbd0a77a847ab536b0f05cb03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63ff061a8d9e69b087d58d5f3c091d2') in 0.048192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/DemoPrefab/Player_SwordMan 1.prefab
+  artifactKey: Guid(59aed4361b339e2458cdb2733b0a8ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/DemoPrefab/Player_SwordMan 1.prefab using Guid(59aed4361b339e2458cdb2733b0a8ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfb51530c84312e9ab5a74ad65312e4') in 0.075309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.008644 seconds.
+  path: Assets/Prefabs/Player_SwordMan 1.prefab
+  artifactKey: Guid(013eae983ef1d214aa82b88172be95bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player_SwordMan 1.prefab using Guid(013eae983ef1d214aa82b88172be95bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47df82515db777aa8e81ab1a500d8ed0') in 0.029202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.918969 seconds.
+  path: Assets/Prefabs/SwordMan.prefab
+  artifactKey: Guid(013eae983ef1d214aa82b88172be95bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SwordMan.prefab using Guid(013eae983ef1d214aa82b88172be95bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0447b9969a1187f6d683ed59f3ca3005') in 0.042119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.268228 seconds.
+  path: Assets/Script
+  artifactKey: Guid(677ba2c690365334d992c6696d65ca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(677ba2c690365334d992c6696d65ca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2280c3367437d872d3a70d2bff0c36d0') in 0.010379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.895230 seconds.
+  path: Assets/Packages/Low_Swordman/2.Animation/sword_man.controller
+  artifactKey: Guid(6bda1f5bf4224db44b12251ff5bfe8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/2.Animation/sword_man.controller using Guid(6bda1f5bf4224db44b12251ff5bfe8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da153f10464c6aab01032fba91da7075') in 0.022615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.109767 seconds.
+  path: Assets/Packages/Low_Swordman/2.Animation/Idle.anim
+  artifactKey: Guid(2199d1ed2131c0748a4a51ec4677e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/2.Animation/Idle.anim using Guid(2199d1ed2131c0748a4a51ec4677e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4870a49369ad1069b50f8176e14d523') in 0.030893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 373.015052 seconds.
+  path: Assets/Animation/sword_man.controller
+  artifactKey: Guid(ec43f320da6dc67479b9d1817d4410c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/sword_man.controller using Guid(ec43f320da6dc67479b9d1817d4410c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63063db3047a1a0b0b67aadbf1e0c6a2') in 0.023977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.175915 seconds.
+  path: Assets/Animation/SwordMan.controller
+  artifactKey: Guid(ec43f320da6dc67479b9d1817d4410c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/SwordMan.controller using Guid(ec43f320da6dc67479b9d1817d4410c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6e1ed28014ea6c75d3c8eb964a6b08') in 0.014176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 149.432311 seconds.
+  path: Assets/Packages/Low_Swordman/1.Sprite
+  artifactKey: Guid(1846ee948f012ca428f317a53af15776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/1.Sprite using Guid(1846ee948f012ca428f317a53af15776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b455e3d6e2f418decd1d4f6ba5911e18') in 0.014103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.671189 seconds.
+  path: Assets/Packages/Low_Swordman/1.Sprite/2D_Simple_Character-Swordman.psd
+  artifactKey: Guid(90fa01bf10a7cfb45afca7c4b4783bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/1.Sprite/2D_Simple_Character-Swordman.psd using Guid(90fa01bf10a7cfb45afca7c4b4783bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b82c3e66e716d3f32e19f6c2fc8110') in 0.049801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Packages/Low_Swordman/1.Sprite/Leg.png
+  artifactKey: Guid(72186849934bfde4484d95f21e9e9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/1.Sprite/Leg.png using Guid(72186849934bfde4484d95f21e9e9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291fd84db00dcbbb1a7d7c377f68a669') in 0.031996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Packages/Low_Swordman/1.Sprite/Shield.png
+  artifactKey: Guid(ccfe210ea1eab7f4ab8a3ec1d1238410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/1.Sprite/Shield.png using Guid(ccfe210ea1eab7f4ab8a3ec1d1238410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad41e18d1e41e3911ffebdcc9660d8c') in 0.031249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/Packages/Low_Swordman/1.Sprite/Complete.png
+  artifactKey: Guid(98669ea49f47bbb4d80419a7cbbaafc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/1.Sprite/Complete.png using Guid(98669ea49f47bbb4d80419a7cbbaafc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20a80cecda3315673267f3ec96ee794') in 0.040684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Packages/Low_Swordman/1.Sprite/body.png
+  artifactKey: Guid(681cdb2853ae7144c815013a86c8da7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/1.Sprite/body.png using Guid(681cdb2853ae7144c815013a86c8da7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e5d762a5a0ff9f12e210b49526832a') in 0.036055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Packages/Low_Swordman/1.Sprite/Weapon-Sword.png
+  artifactKey: Guid(066cc7941702be2409b4c86b8dac4ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/1.Sprite/Weapon-Sword.png using Guid(066cc7941702be2409b4c86b8dac4ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6df967642862219d10844ae7f325b5') in 0.031610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Packages/Low_Swordman/1.Sprite/Head.png
+  artifactKey: Guid(d843bdc711e689e49b636a4b8a824c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/1.Sprite/Head.png using Guid(d843bdc711e689e49b636a4b8a824c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bddff60ef55f52b74390b7f9b47c41a') in 0.034678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000949 seconds.
+  path: Assets/Packages/Low_Swordman/1.Sprite/Hat-Helmet.png
+  artifactKey: Guid(8eb2ff5d15ad57044863329a435b3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/1.Sprite/Hat-Helmet.png using Guid(8eb2ff5d15ad57044863329a435b3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b46906c377a12409453f436c0516c0') in 0.038188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.714338 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_0.asset
+  artifactKey: Guid(0dc903ca611c1c44cbd63653c190d01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_0.asset using Guid(0dc903ca611c1c44cbd63653c190d01a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1bd0431816493cc60754896966425a') in 0.075658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_6.asset
+  artifactKey: Guid(806789aacb7488847b2772012705513a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_6.asset using Guid(806789aacb7488847b2772012705513a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2619ecaf88b4e143d493281a7a8cfc') in 0.052686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_10.asset
+  artifactKey: Guid(e4d81042f23373d41be2750f7dd89f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_10.asset using Guid(e4d81042f23373d41be2750f7dd89f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55204ae92ddf0632389954e3bacd6d4') in 0.047228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_7.asset
+  artifactKey: Guid(8290e376f5ec0c74fbd18e492e580feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_7.asset using Guid(8290e376f5ec0c74fbd18e492e580feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd89195e79b2a9837063bc20e4605949') in 0.043773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_20.asset
+  artifactKey: Guid(999e3a14f5c122d43b9b8ff60d7cae78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_20.asset using Guid(999e3a14f5c122d43b9b8ff60d7cae78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be6dec3e00efb04dde4e1ea186a5a92') in 0.045671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_21.asset
+  artifactKey: Guid(a7d59b5de42b8a04ca6e5dca602428e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_21.asset using Guid(a7d59b5de42b8a04ca6e5dca602428e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e02dbdeb48e4900a0e10f2bc0bf948') in 0.045039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_19.asset
+  artifactKey: Guid(5477cdc1f640a1f4a8ab9d3084f7a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_19.asset using Guid(5477cdc1f640a1f4a8ab9d3084f7a946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc79758dec1e9405e93ba0c42257580f') in 0.049974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_2.asset
+  artifactKey: Guid(1f2688a65828031409658468741bcfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_2.asset using Guid(1f2688a65828031409658468741bcfab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8611762c012f047eae114ead608c5f9a') in 0.046032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_17.asset
+  artifactKey: Guid(66423cb8e9b93a24cba17aa5f2e3bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_17.asset using Guid(66423cb8e9b93a24cba17aa5f2e3bfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8a277378209b8369c34b847f562b3a') in 0.047486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_3.asset
+  artifactKey: Guid(f269eba1260f6994ab79efb1b48ac109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_3.asset using Guid(f269eba1260f6994ab79efb1b48ac109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63afb2e926d4e9af2837ce2aeb5389b') in 0.044290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_9.asset
+  artifactKey: Guid(e2277739d19fc5b42bb08ad6d2424ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_9.asset using Guid(e2277739d19fc5b42bb08ad6d2424ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c11292ca9378b0e7960880534468ea') in 0.042192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_16.asset
+  artifactKey: Guid(246b5389984d5ef4e90a38cf3edaf185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_16.asset using Guid(246b5389984d5ef4e90a38cf3edaf185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b255b0a112bd8bcb0c184d231f062beb') in 0.041846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_13.asset
+  artifactKey: Guid(93601888f44aab244904b042a6fc89c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_13.asset using Guid(93601888f44aab244904b042a6fc89c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcfe396d4b60eb6bc907a65a75fc35a') in 0.042198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_1.asset
+  artifactKey: Guid(29bba71d18fa63546adb04ab4221f3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_1.asset using Guid(29bba71d18fa63546adb04ab4221f3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53372fafb1ea9f47e7cce8c11fae3824') in 0.043571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_14.asset
+  artifactKey: Guid(d4112fb697e9ca0428cc9a352bb55c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_14.asset using Guid(d4112fb697e9ca0428cc9a352bb55c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd17c16c7a62a5194ac4d54f03671fd') in 0.041555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_4.asset
+  artifactKey: Guid(d993d82bdd854fb41881b4d9bf9c58cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_4.asset using Guid(d993d82bdd854fb41881b4d9bf9c58cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e475d23308ca7de9fa579e69d64002c3') in 0.043034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_15.asset
+  artifactKey: Guid(32e3b9bd2ba13b743aab4b770af89c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_15.asset using Guid(32e3b9bd2ba13b743aab4b770af89c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42914083799cf79b32aa1c18e27c1f1a') in 0.042191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_5.asset
+  artifactKey: Guid(0040101086d63a044ba1573fe2cf2a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_5.asset using Guid(0040101086d63a044ba1573fe2cf2a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8578078fd8c67bec64cbf6452f541ee7') in 0.041910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_18.asset
+  artifactKey: Guid(3524a9487e57bf84c8d7e48cbcbbddab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_18.asset using Guid(3524a9487e57bf84c8d7e48cbcbbddab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4836d073c1f4fe3779d65b68f02929b0') in 0.043161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_12.asset
+  artifactKey: Guid(91ec2b43276efd74c872c01e059fbd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_12.asset using Guid(91ec2b43276efd74c872c01e059fbd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6f0d7c87e89fd91f4aeedc2ed30dd1') in 0.042975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_8.asset
+  artifactKey: Guid(ede63559b080bbf439149b2e60696928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_8.asset using Guid(ede63559b080bbf439149b2e60696928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b95820d14e167062eb659ef3bd5ab04') in 0.043341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_11.asset
+  artifactKey: Guid(f0d7f06f024295e4e8ff364fb236fc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_11.asset using Guid(f0d7f06f024295e4e8ff364fb236fc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04155df37d799dd30e7633ef0ac4e0f7') in 0.043395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.978436 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_22.asset
+  artifactKey: Guid(eff2593c698b57542a51cb6dd37646c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_22.asset using Guid(eff2593c698b57542a51cb6dd37646c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073bcc35b1f9575f0317191b7b583159') in 0.052340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_24.asset
+  artifactKey: Guid(c0f81d7b51a98e547bc8294c216c9a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_24.asset using Guid(c0f81d7b51a98e547bc8294c216c9a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcc6c15fd6ca376a82dfa22faf7614d') in 0.054398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_26.asset
+  artifactKey: Guid(f19b76adf3e0b6d499515b1d2b1dbebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_26.asset using Guid(f19b76adf3e0b6d499515b1d2b1dbebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d5021eb691f764eece01c03a7d422a') in 0.042224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_27.asset
+  artifactKey: Guid(95a5a2952edd7c94aaf88446049daa4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_27.asset using Guid(95a5a2952edd7c94aaf88446049daa4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a175d07f86e6f3ed6a2c6bc14831a227') in 0.036511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_28.asset
+  artifactKey: Guid(cf75c2ca882b1f943b10442141c7c6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_28.asset using Guid(cf75c2ca882b1f943b10442141c7c6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4998f918bba33988e85c5b779dd4402') in 0.038021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_25.asset
+  artifactKey: Guid(18b975cb5fa096341956c311a5e03278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_25.asset using Guid(18b975cb5fa096341956c311a5e03278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9ba1b5b366ad63c0f7f44c05e68d3c') in 0.040510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_23.asset
+  artifactKey: Guid(f9922602ad540f047a297023a0facd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_23.asset using Guid(f9922602ad540f047a297023a0facd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f59b5e7fca91a60fe9d044784816d99') in 0.036404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.167568 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_29.asset
+  artifactKey: Guid(18b2477f95b54164a9368c95da4f7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_29.asset using Guid(18b2477f95b54164a9368c95da4f7e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8572aacf50cf9bad1db8ca6d8004bd') in 0.033645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_30.asset
+  artifactKey: Guid(057f06c888d360348b3881c3b5acd3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_30.asset using Guid(057f06c888d360348b3881c3b5acd3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2284e9f937dcd34e5b6f0574d5ac48c') in 0.039579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_33.asset
+  artifactKey: Guid(67327389dabbd934e9dae9a9ce540268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_33.asset using Guid(67327389dabbd934e9dae9a9ce540268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f01c34683269abf260585041f5a28e') in 0.035003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000507 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_32.asset
+  artifactKey: Guid(8637b4bbc398ba6418f11f7af281a1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_32.asset using Guid(8637b4bbc398ba6418f11f7af281a1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c9269d853eda4fb62e81ba2784f39c') in 0.042862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_31.asset
+  artifactKey: Guid(5aa7216e321ac9f4cba89ea0200c4964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_31.asset using Guid(5aa7216e321ac9f4cba89ea0200c4964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd432aa6a5eb22a68920c3043a8eac31d') in 0.038652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_35.asset
+  artifactKey: Guid(9d237139d98225147bec1cadd4ae4e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_35.asset using Guid(9d237139d98225147bec1cadd4ae4e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cc78633b1a778fb6fd7121fca43cc0') in 0.035963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_34.asset
+  artifactKey: Guid(6df9e6fd7959b0a4ea60d5afba7c0bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_34.asset using Guid(6df9e6fd7959b0a4ea60d5afba7c0bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9377088b42fe7397e123324a1a4ac82') in 0.040799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.257022 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_36.asset
+  artifactKey: Guid(93011f9876e4eeb4f985cd97b4d5832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_36.asset using Guid(93011f9876e4eeb4f985cd97b4d5832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc62e11d9c3cf9e70c45ebfcb4b091e') in 0.030248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_39.asset
+  artifactKey: Guid(c174c072904dd32499353b4984991465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_39.asset using Guid(c174c072904dd32499353b4984991465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676e65df0da6c873090f12372092c5b3') in 0.036213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_44.asset
+  artifactKey: Guid(9f1dd42c0c642884888037a478c61f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_44.asset using Guid(9f1dd42c0c642884888037a478c61f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ccfa900881760e30d837c674028ecb') in 0.035344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_49.asset
+  artifactKey: Guid(c8d3026c0aed1f1468c34e236381a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_49.asset using Guid(c8d3026c0aed1f1468c34e236381a18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9368bb79b85000cc691a376a34e786b') in 0.035325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_53.asset
+  artifactKey: Guid(b4c525e3c90be6b478530ed6f4354000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_53.asset using Guid(b4c525e3c90be6b478530ed6f4354000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5341f11dfe9dcafe406015776b19f300') in 0.038070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_54.asset
+  artifactKey: Guid(82bcac944d9ed314a83679b36eebdc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_54.asset using Guid(82bcac944d9ed314a83679b36eebdc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb531aa7fbc9e5c8583aca22e05648f') in 0.036542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_37.asset
+  artifactKey: Guid(88c787a2874cb0840b8b61daacf65b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_37.asset using Guid(88c787a2874cb0840b8b61daacf65b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dcf4dc8d3378b3526d739f07207e16') in 0.036359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_52.asset
+  artifactKey: Guid(f7ec6fc743188734c94fdd95e4955c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_52.asset using Guid(f7ec6fc743188734c94fdd95e4955c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf874bda502b0f16220038c87bb6473c') in 0.035075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_42.asset
+  artifactKey: Guid(a55256c849a73694191af3a0ec8b106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_42.asset using Guid(a55256c849a73694191af3a0ec8b106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc1481a3415d64dc007040eff14a478') in 0.033668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_50.asset
+  artifactKey: Guid(a954a51961d3d8b478b2a18490e76101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_50.asset using Guid(a954a51961d3d8b478b2a18490e76101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8616fd03976f479eee3d4a795e1a9d70') in 0.038416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_43.asset
+  artifactKey: Guid(f2caf30b0c9cc1549b4b753af652d5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_43.asset using Guid(f2caf30b0c9cc1549b4b753af652d5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f4a083906339c6a29bb232db72f605') in 0.036631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_40.asset
+  artifactKey: Guid(1fe4b578127f7b5468d10c167f4501c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_40.asset using Guid(1fe4b578127f7b5468d10c167f4501c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97a8af36a10a6b7642313cf3e9e1726') in 0.039986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_51.asset
+  artifactKey: Guid(0fa8152ffc71dfa418ffb9e7b60b0ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_51.asset using Guid(0fa8152ffc71dfa418ffb9e7b60b0ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2af294928a774031e7d323515230e3') in 0.033652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000608 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_45.asset
+  artifactKey: Guid(46343c32a86fece47a7d479b59560e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_45.asset using Guid(46343c32a86fece47a7d479b59560e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4029d859a5055100f1af3e7cee58ef') in 0.041549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_41.asset
+  artifactKey: Guid(4ddea8779f4a7514883c691bc4ac9ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_41.asset using Guid(4ddea8779f4a7514883c691bc4ac9ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd01bbafdb2f0273c6a3139986979c9') in 0.045741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_46.asset
+  artifactKey: Guid(33328288cc6250841a3f5d59cd801e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_46.asset using Guid(33328288cc6250841a3f5d59cd801e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbde765553bc960cdaa7d3d5192a578') in 0.031112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_59.asset
+  artifactKey: Guid(002d0389651637d4d8616d6af2644f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_59.asset using Guid(002d0389651637d4d8616d6af2644f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417ff13c8df14b4ee93630a1660bbfc2') in 0.038694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_62.asset
+  artifactKey: Guid(b0280ee467979834db46c6cf2796fd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_62.asset using Guid(b0280ee467979834db46c6cf2796fd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aca03b3f5f4eaf848bd84904baced49') in 0.038618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_60.asset
+  artifactKey: Guid(519931e5349636a4d9665bf99c3fa5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_60.asset using Guid(519931e5349636a4d9665bf99c3fa5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f74d7aef0cd215439c0c78d5c38938a') in 0.031230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_61.asset
+  artifactKey: Guid(f30caf08451251543b626043111bc482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_61.asset using Guid(f30caf08451251543b626043111bc482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddcfacbcd36688c4b6403e183fb765e') in 0.036322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_58.asset
+  artifactKey: Guid(dd48c5aeca82f5c4f8770a9da8b99a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_58.asset using Guid(dd48c5aeca82f5c4f8770a9da8b99a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc5f228def422dac2abd120d1740d8e') in 0.036936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_57.asset
+  artifactKey: Guid(3d7b70c0c221aec4d9a08f3c8d5e0ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_57.asset using Guid(3d7b70c0c221aec4d9a08f3c8d5e0ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7386685142bf6653e40281d2b6e00ff7') in 0.032902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_67.asset
+  artifactKey: Guid(4f58532f65384244c89faa1bbd13025e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_67.asset using Guid(4f58532f65384244c89faa1bbd13025e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f36eaa669f9d9824dfc52d92db5f51c') in 0.040144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_66.asset
+  artifactKey: Guid(c138134208df77543a58777516ac626f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_66.asset using Guid(c138134208df77543a58777516ac626f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486ff50ef76662112ceab07e71234fae') in 0.035235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_69.asset
+  artifactKey: Guid(dde13384bc36f5646aa64201102f5ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_69.asset using Guid(dde13384bc36f5646aa64201102f5ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc61308b108e2483159202ae80f96464') in 0.047860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_64.asset
+  artifactKey: Guid(993af87d998d55c4c974337c81867a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_64.asset using Guid(993af87d998d55c4c974337c81867a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38a92d9898a7a225079fa5855ab5010') in 0.033905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000786 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_68.asset
+  artifactKey: Guid(abc77e8a333e79240a3e039237aa27ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_68.asset using Guid(abc77e8a333e79240a3e039237aa27ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076626f347bf31a4fb856acb1e82ed9d') in 0.036033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_76.asset
+  artifactKey: Guid(59a931e66b1e5eb4f809906b40996e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_76.asset using Guid(59a931e66b1e5eb4f809906b40996e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a1c2db353398a10a63ca77537552dd') in 0.034442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_75.asset
+  artifactKey: Guid(2c4c51bc873f0cd4889f93cdc919d6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_75.asset using Guid(2c4c51bc873f0cd4889f93cdc919d6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725886bdbbe9699f6cb15533331854b4') in 0.040896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_71.asset
+  artifactKey: Guid(d4ec1e3c38b252e46a3c55ffa8bee8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_71.asset using Guid(d4ec1e3c38b252e46a3c55ffa8bee8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48704c881c1335b3a9c6f6d29284305') in 0.039302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_72.asset
+  artifactKey: Guid(b647ee1f7c00ba34f8ac7f1cacfccbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_72.asset using Guid(b647ee1f7c00ba34f8ac7f1cacfccbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400cf750fc70f810e794abe130a6dd6d') in 0.037067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_73.asset
+  artifactKey: Guid(12819d2ee71e0094da358258c0b553cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_73.asset using Guid(12819d2ee71e0094da358258c0b553cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e713d9f5ea6c644224a5dbad0b8e18') in 0.035362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001017 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_70.asset
+  artifactKey: Guid(f8baaf5bc16ba2f43a464a781ef53c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_70.asset using Guid(f8baaf5bc16ba2f43a464a781ef53c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc61ad875ac189fcaa222ef8c8edc47') in 0.038776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_65.asset
+  artifactKey: Guid(153e7a5a2ad2c9f4b8add4cb7e22df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_65.asset using Guid(153e7a5a2ad2c9f4b8add4cb7e22df52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc80f5ac00c1752b0fd8a251528d2004') in 0.038720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_47.asset
+  artifactKey: Guid(3ec9e054f9654384ab0f4b5c710b120f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_47.asset using Guid(3ec9e054f9654384ab0f4b5c710b120f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762d24a550ee672d77a3d621b7956d97') in 0.035465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_55.asset
+  artifactKey: Guid(7cc3ad207991e1a459d4a03a1fb7f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_55.asset using Guid(7cc3ad207991e1a459d4a03a1fb7f669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da209844dc56a4ee29ef1b5033f84907') in 0.032654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_74.asset
+  artifactKey: Guid(286267d381404d84ca816276223d8935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_74.asset using Guid(286267d381404d84ca816276223d8935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93bc432b08c75ae5ac4c335ffa45a64') in 0.038412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_63.asset
+  artifactKey: Guid(1eeff1808df337c4ab5900b5737f525d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_63.asset using Guid(1eeff1808df337c4ab5900b5737f525d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c529dc37bf0a2dcb5de11dbfe5457e37') in 0.028965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_48.asset
+  artifactKey: Guid(c72cfd60ff1ade14791b028ee9e07b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_48.asset using Guid(c72cfd60ff1ade14791b028ee9e07b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9b52b8f42aba73b4de44051d0938e1') in 0.037438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000848 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_77.asset
+  artifactKey: Guid(1c3056358e3cf7b469e4299783991de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_77.asset using Guid(1c3056358e3cf7b469e4299783991de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c09b5727cab0b77f69bb530087643c0') in 0.034094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_38.asset
+  artifactKey: Guid(2f4a87a05dde81440915481c2cfca2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_38.asset using Guid(2f4a87a05dde81440915481c2cfca2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4e6f70b09d93900d0f4fb5b862b133') in 0.040266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_56.asset
+  artifactKey: Guid(bb2f7e03874d7b34ebda832ce7f63be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Pallet/Light_Soil_Sample_56.asset using Guid(bb2f7e03874d7b34ebda832ce7f63be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a2157d09643938caa887f4b5ec8ce5') in 0.035729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.034330 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Scripts/GroundSensor.cs
+  artifactKey: Guid(14dc69de864209a4abd8b6de40857671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Scripts/GroundSensor.cs using Guid(14dc69de864209a4abd8b6de40857671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee30dd89c15bbf94a772da509524ad7') in 0.090794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.135037 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Scripts/Swordman.cs
+  artifactKey: Guid(e0f929248d997d24fa80adaa46f30d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Scripts/Swordman.cs using Guid(e0f929248d997d24fa80adaa46f30d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950f9f74baee283b38c1e55cd69bd277') in 0.252538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.274614 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Scripts/Demo_GM.cs
+  artifactKey: Guid(93c563e68eb435144b205cb270b2ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Scripts/Demo_GM.cs using Guid(93c563e68eb435144b205cb270b2ea2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0062223d53f92f2c8f3824132be5820') in 0.566176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.983509 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Scripts/PlayerController.cs
+  artifactKey: Guid(a47c1d2cad1403b4fa1fa38ee6b07356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Scripts/PlayerController.cs using Guid(a47c1d2cad1403b4fa1fa38ee6b07356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac56dfcae5487e6265a3bc63b8114f8') in 0.037781 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002809 seconds.
+Registered in 0.004831 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.104 seconds
+- Completed reload, in  1.681 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2105ms)
-		BeginReloadAssembly (298ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (124ms)
-		EndReloadAssembly (1665ms)
-			LoadAssemblies (229ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (854ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (443ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (307ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1542 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.5 MB.
-System memory in use after: 70.6 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1989.
-Total: 7.988900 ms (FindLiveObjects: 0.189700 ms CreateObjectMapping: 0.067700 ms MarkObjects: 7.650300 ms  DeleteObjects: 0.079700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003129 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.819 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1820ms)
-		BeginReloadAssembly (179ms)
+	ReloadAssembly (1682ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1536ms)
-			LoadAssemblies (170ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1368ms)
+			LoadAssemblies (165ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (538ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (568ms)
+			SetupTypeCache (570ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (447ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (403ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (314ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1544 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.6 MB.
-System memory in use after: 70.7 MB.
+System memory in use before: 74.3 MB.
+System memory in use after: 74.4 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1993.
-Total: 3.953000 ms (FindLiveObjects: 0.155200 ms CreateObjectMapping: 0.059200 ms MarkObjects: 3.664100 ms  DeleteObjects: 0.073300 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2033.
+Total: 4.241700 ms (FindLiveObjects: 0.180100 ms CreateObjectMapping: 0.071600 ms MarkObjects: 3.903700 ms  DeleteObjects: 0.084700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -504,60 +936,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004863 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.684 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1685ms)
-		BeginReloadAssembly (175ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1411ms)
-			LoadAssemblies (164ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (621ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (427ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1544 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.6 MB.
-System memory in use after: 70.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1995.
-Total: 3.532400 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.067100 ms MarkObjects: 3.223100 ms  DeleteObjects: 0.075700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 31.159076 seconds.
+  path: Assets/Packages/Low_Swordman/Demo/Scripts/PlayerController.cs
+  artifactKey: Guid(a47c1d2cad1403b4fa1fa38ee6b07356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Low_Swordman/Demo/Scripts/PlayerController.cs using Guid(a47c1d2cad1403b4fa1fa38ee6b07356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b447483cdd3258472508b20527f77995') in 0.006711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.442679 seconds.
+  path: Assets/Scenes/Play.unity
+  artifactKey: Guid(202ff80f66311e643931fabebc268c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Play.unity using Guid(202ff80f66311e643931fabebc268c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf49e1280e49141435d46ca3e7a77a41') in 0.033532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 180.589987 seconds.
+  path: Assets/Scenes/Help.unity
+  artifactKey: Guid(f8da82cc45339fa4791d990dd7fc4c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Help.unity using Guid(f8da82cc45339fa4791d990dd7fc4c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae152c25fd9d4211ba7888fcd8c538a') in 0.019698 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

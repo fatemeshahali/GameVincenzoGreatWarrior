@@ -10,7 +10,7 @@ public abstract class PlayerController :MonoBehaviour
     public bool isGrounded = false;
     public bool OnceJumpRayCheck = false;
 
-    public bool Is_DownJump_GroundCheck = false;   // 다운 점프를 하는데 아래 블록인지 그라운드인지 알려주는 불값
+    public bool Is_DownJump_GroundCheck = false;   
     protected float m_MoveX;
     public Rigidbody2D m_rigidbody;
     protected CapsuleCollider2D m_CapsulleCollider;
@@ -113,7 +113,7 @@ public abstract class PlayerController :MonoBehaviour
     }
 
 
-    //////바닥 체크 레이케스트 
+
     Vector2 RayDir = Vector2.down;
 
 
