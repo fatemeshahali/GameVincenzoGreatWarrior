@@ -130,6 +130,7 @@ public abstract class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Block"))
         {
+            FindObjectOfType<AudioManager>().Stop("BgSound");
             Instantiate(fire, transform.position, Quaternion.identity);
             Destroy(player);
             SceneManager.LoadScene("Lost-Game");

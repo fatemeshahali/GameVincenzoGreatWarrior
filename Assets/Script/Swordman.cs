@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Swordman : PlayerController
 {
     public GameObject Camera;
@@ -55,6 +56,7 @@ public class Swordman : PlayerController
         {
             if (Input.GetKey(KeyCode.Mouse0))
             {
+                Object.FindObjectOfType<AudioManager>().Play("Sword");
                 m_Anim.Play("Attack");
             }
             else
@@ -121,6 +123,7 @@ public class Swordman : PlayerController
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            Object.FindObjectOfType<AudioManager>().Play("Jump");
             if (m_Anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
                 return;
 
@@ -145,4 +148,3 @@ public class Swordman : PlayerController
     }
 
 }
-
