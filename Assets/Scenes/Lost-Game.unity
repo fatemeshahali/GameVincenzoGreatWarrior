@@ -1104,7 +1104,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1813918192
+--- !u!1 &1560725105
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1112,8 +1112,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1813918194}
-  - component: {fileID: 1813918193}
+  - component: {fileID: 1560725107}
+  - component: {fileID: 1560725106}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -1121,13 +1121,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1813918193
+--- !u!114 &1560725106
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813918192}
+  m_GameObject: {fileID: 1560725105}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e2fe447d7fa0125499c2867715235ce2, type: 3}
@@ -1158,13 +1158,43 @@ MonoBehaviour:
     pitch: 0.89
     loop: 0
     source: {fileID: 0}
---- !u!4 &1813918194
+  - name: Coin
+    clip: {fileID: 8300000, guid: f5e8c8aaeb4a71a49847dc87973c30dc, type: 3}
+    volume: 4
+    pitch: 0.89
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 679aed4c38995a7438b5e081424c6ee0, type: 3}
+    volume: 4
+    pitch: 0.89
+    loop: 0
+    source: {fileID: 0}
+  - name: Sword
+    clip: {fileID: 8300000, guid: ff379480c2a593845af3d037e2959dd8, type: 3}
+    volume: 4
+    pitch: 0.89
+    loop: 0
+    source: {fileID: 0}
+  - name: BgSound
+    clip: {fileID: 8300000, guid: 7959e7fccd09cee4e9e8c8f613cd5024, type: 3}
+    volume: 4
+    pitch: 0.89
+    loop: 1
+    source: {fileID: 0}
+  - name: DistroyEnemy
+    clip: {fileID: 8300000, guid: 46c18dcc4f698fb4b9c467c466cf904f, type: 3}
+    volume: 4
+    pitch: 0.89
+    loop: 0
+    source: {fileID: 0}
+--- !u!4 &1560725107
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813918192}
+  m_GameObject: {fileID: 1560725105}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.069202, y: -4.235478, z: -24.285582}
   m_LocalScale: {x: 1, y: 1, z: 1}
