@@ -274,7 +274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.16987836, g: 0.6698113, b: 0, a: 1}
+  m_Color: {r: 0.5660378, g: 0.13616945, b: 0.13616945, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -283,7 +283,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a6037e549236ef349ae7de5bf27a3b88, type: 3}
-    m_FontSize: 54
+    m_FontSize: 79
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -294,7 +294,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: you have won ;)
+  m_Text: You failed :(
 --- !u!222 &143430800
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -608,18 +608,19 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2badeacd5d68b024f85039a0eefef618, type: 3}
-    m_FontSize: 106
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 123
+    m_MaxSize: 120
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: And sometimes revenge works best
+  m_Text: Do not forget that you must take revenge !!! Do not fight again and do
+    not give up
 --- !u!222 &1144399629
 CanvasRenderer:
   m_ObjectHideFlags: 0
