@@ -247,7 +247,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &46264796
 Canvas:
   m_ObjectHideFlags: 0
@@ -257,7 +257,7 @@ Canvas:
   m_GameObject: {fileID: 46264793}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 2
   m_Camera: {fileID: 1205229516}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -277,8 +277,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46264793}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 0.009259259, y: 0.009259259, z: 0.009259259}
   m_Children:
   - {fileID: 1144399627}
   - {fileID: 143430798}
@@ -288,8 +288,8 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920.0001, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &128369335
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,6 +537,24 @@ MonoBehaviour:
     pitch: 2
     loop: 0
     source: {fileID: 0}
+  - name: Finish
+    clip: {fileID: 8300000, guid: 498a27be108309c4ea5b117014e092a1, type: 3}
+    volume: 4
+    pitch: 2
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 637d774794126264c927b1e4de8d2bab, type: 3}
+    volume: 4
+    pitch: 0.89
+    loop: 0
+    source: {fileID: 0}
+  - name: WinGame
+    clip: {fileID: 8300000, guid: 4356dfc481a745348bb3a3af4a1f6163, type: 3}
+    volume: 4
+    pitch: 0.89
+    loop: 0
+    source: {fileID: 0}
 --- !u!4 &557126799
 Transform:
   m_ObjectHideFlags: 0
@@ -561,6 +579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 954049425}
   - component: {fileID: 954049424}
+  - component: {fileID: 954049426}
   m_Layer: 0
   m_Name: background
   m_TagString: Untagged
@@ -633,6 +652,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &954049426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954049423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe33cac5c0cc8e4f932d1017f22c929, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audios: WinGame
 --- !u!1 &980083237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,7 +1123,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1205229516}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1

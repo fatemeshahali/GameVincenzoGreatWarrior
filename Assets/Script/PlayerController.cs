@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public abstract class PlayerController : MonoBehaviour
 {
@@ -131,7 +132,7 @@ public abstract class PlayerController : MonoBehaviour
         {
             Instantiate(fire, transform.position, Quaternion.identity);
             Destroy(player);
-            Debug.Log("OK");
+            SceneManager.LoadScene("Lost-Game");
         }
     }
     protected abstract void LandingEvent();
